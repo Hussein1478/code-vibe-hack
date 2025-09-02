@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade to Pro - AI StudyBuddy</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="upgrade-container">
+        <header class="upgrade-header">
+            <a href="/dashboard" class="back-btn">← Back to Dashboard</a>
+            <h1 class="logo">🧠 AI StudyBuddy Pro</h1>
+        </header>
+
+        <main class="upgrade-main">
+            <div class="upgrade-card">
+                <div class="upgrade-hero">
+                    <h2>Unlock Unlimited Learning</h2>
+                    <p>Get unlimited flashcard generations, priority support, and advanced features</p>
+                    <div class="upgrade-highlight">
+                        <span class="highlight-badge">Limited Time</span>
+                        <span class="highlight-text">Join 2,000+ Pro students already advancing their studies</span>
+                    </div>
+                </div>
+
+                <div class="pricing-section">
+                    <div class="price-card">
+                        <div class="price-header">
+                            <h3>AI StudyBuddy Pro</h3>
+                            <div class="price">$9.99<span>/month</span></div>
+                            <div class="price-comparison">
+                                <span class="crossed-price">$19.99</span>
+                                <span class="discount-badge">50% OFF</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li>✅ Unlimited flashcard generations</li>
+                            <li>✅ Priority AI processing</li>
+                            <li>✅ Advanced formatting options</li>
+                            <li>✅ Export to multiple formats</li>
+                            <li>✅ Premium support</li>
+                            <li>✅ Custom study schedules</li>
+                            <li>✅ Progress analytics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="payment-inquiry">
+                    <h3>Choose Your Preferred Payment Method</h3>
+                    <p>Select how you'd like to pay, and our team will contact you to complete the upgrade.</p>
+                    
+                    <div class="payment-method-benefits">
+                        <h4>Why Choose Pro?</h4>
+                        <div class="benefits-grid">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Instant activation</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>24/7 support</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Cancel anytime</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Secure payments</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="upgradeForm" class="upgrade-form">
+                        <div class="payment-options">
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="M-Pesa" required>
+                                <div class="option-content">
+                                    <div class="option-icon">📱</div>
+                                    <div class="option-text">
+                                        <strong>M-Pesa</strong>
+                                        <span>Mobile money transfer • Most popular</span>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="Airtel Money" required>
+                                <div class="option-content">
+                                    <div class="option-icon">📲</div>
+                                    <div class="option-text">
+                                        <strong>Airtel Money</strong>
+                                        <span>Mobile money transfer • Fast & secure</span>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="Credit Card" required>
+                                <div class="option-content">
+                                    <div class="option-icon">💳</div>
+                                    <div class="option-text">
+                                        <strong>Credit Card</strong>
+                                        <span>Visa, MasterCard • International</span>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="Debit Card" required>
+                                <div class="option-content">
+                                    <div class="option-icon">💳</div>
+                                    <div class="option-text">
+                                        <strong>Debit Card</strong>
+                                        <span>Direct bank account • Instant</span>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="Bank Transfer" required>
+                                <div class="option-content">
+                                    <div class="option-icon">🏦</div>
+                                    <div class="option-text">
+                                        <strong>Bank Transfer</strong>
+                                        <span>Direct bank transfer • Secure</span>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="PayPal" required>
+                                <div class="option-content">
+                                    <div class="option-icon">🌐</div>
+                                    <div class="option-text">
+                                        <strong>PayPal</strong>
+                                        <span>Global payment platform • Buyer protection</span>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="Cryptocurrency" required>
+                                <div class="option-content">
+                                    <div class="option-icon">₿</div>
+                                    <div class="option-text">
+                                        <strong>Cryptocurrency</strong>
+                                        <span>Bitcoin, Ethereum • Anonymous</span>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="upgrade-submit-btn">
+                            <span class="btn-text">Submit Payment Preference</span>
+                            <span class="btn-loading" style="display: none;">Processing...</span>
+                        </button>
+                    </form>
+
+                    <div id="confirmationMessage" class="confirmation-message" style="display: none;">
+                        <div class="confirmation-content">
+                            <div class="confirmation-icon">✅</div>
+                            <h3>Thank You!</h3>
+                            <p id="confirmationText"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById('upgradeForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData);
+            
+            const btnText = document.querySelector('.btn-text');
+            const btnLoading = document.querySelector('.btn-loading');
+            const confirmationDiv = document.getElementById('confirmationMessage');
+            const confirmationText = document.getElementById('confirmationText');
+            
+            btnText.style.display = 'none';
+            btnLoading.style.display = 'inline';
+            
+            try {
+                const response = await fetch('/upgrade', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    document.querySelector('.upgrade-form').style.display = 'none';
+                    confirmationText.textContent = result.message;
+                    confirmationDiv.style.display = 'block';
+                } else {
+                    alert(result.message);
+                }
+            } catch (error) {
+                alert('An error occurred. Please try again.');
+            } finally {
+                btnText.style.display = 'inline';
+                btnLoading.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
