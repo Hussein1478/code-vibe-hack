@@ -215,4 +215,163 @@ This project is optimized for the Bolt.new platform and includes all necessary c
 ---
 
 
+
+
+
+# Website Documentation
+
+## Overview
+
+This website provides a comprehensive chat platform with robust security measures, flexible monetization options, and complete chat history management. Built with user privacy and experience as core priorities.
+
+## 🔐 Security Features
+
+### Authentication System
+Our platform implements a dual-layer authentication system to ensure maximum security for all users.
+
+#### Email & Password Authentication
+- **Secure Registration**: Users create accounts using verified email addresses and strong passwords
+- **Password Requirements**: 
+  - Minimum 8 characters
+  - Must include uppercase and lowercase letters
+  - Must contain at least one number and special character
+  - Real-time password strength indicator during registration
+- **Email Verification**: All new accounts require email confirmation before activation
+- **Password Reset**: Secure password recovery via email with time-limited reset tokens
+
+#### Security Measures
+- **Password Hashing**: All passwords are hashed using bcrypt with salt rounds for maximum protection
+- **Session Management**: Secure session handling with automatic timeout for inactive users
+- **HTTPS Encryption**: All data transmission is encrypted using SSL/TLS protocols
+- **Brute Force Protection**: Rate limiting prevents automated login attempts
+- **Input Validation**: All user inputs are sanitized to prevent XSS and SQL injection attacks
+- **CSRF Protection**: Cross-site request forgery tokens protect against malicious requests
+
+#### Data Protection
+- **Personal Information**: User data is stored securely with encryption at rest
+- **Privacy Compliance**: Adherence to GDPR and other privacy regulations
+- **Regular Security Audits**: Periodic security assessments and vulnerability testing
+- **Secure Headers**: Implementation of security headers (HSTS, CSP, X-Frame-Options)
+
+## 💰 Monetization Strategy
+
+### Freemium Model
+Our platform operates on a freemium business model, providing value to both free and premium users while ensuring sustainable growth.
+
+#### Free Tier Features
+- **Basic Chat Access**: Limited number of messages per day/month
+- **Standard Response Time**: Regular processing speed for conversations
+- **Basic Chat History**: Access to last 30 days of chat history
+- **Community Support**: Access to community forums and basic help documentation
+- **Standard Security**: All security features included at no cost
+
+#### Premium Tier Benefits
+- **Unlimited Messaging**: No restrictions on daily or monthly message limits
+- **Priority Processing**: Faster response times and reduced wait periods
+- **Extended Chat History**: Complete chat history with advanced search capabilities
+- **Premium Support**: Priority customer support with faster response times
+- **Advanced Features**: Access to experimental features and beta testing
+- **Export Capabilities**: Download chat histories in multiple formats (PDF, JSON, CSV)
+- **Custom Integrations**: API access for third-party integrations
+- **Analytics Dashboard**: Detailed usage statistics and conversation insights
+
+#### Subscription Plans
+- **Monthly Premium**: $9.99/month with full premium features
+- **Annual Premium**: $99.99/year (16% savings) with additional perks
+- **Team Plans**: Custom pricing for organizations and teams
+- **Enterprise**: Tailored solutions for large-scale deployments
+
+#### Revenue Streams
+1. **Subscription Revenue**: Primary income from premium subscriptions
+2. **Usage-Based Billing**: Optional pay-per-use for high-volume users
+3. **Enterprise Licensing**: Custom solutions for business clients
+4. **API Access**: Developer tier for integration services
+5. **Add-on Services**: Optional premium features and extensions
+
+## 📚 Chat History Management
+
+### Dashboard Integration
+The chat history feature is seamlessly integrated into the user dashboard, providing comprehensive conversation management.
+
+#### Chat History Button
+- **Easy Access**: Prominently placed chat history button in the main dashboard
+- **Quick Navigation**: One-click access to all previous conversations
+- **Visual Indicators**: Clear badges showing unread messages and recent activity
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+
+#### History Features
+
+##### Organization & Search
+- **Chronological Sorting**: Conversations organized by date with newest first
+- **Advanced Search**: Full-text search across all chat messages
+- **Filter Options**: Filter by date range, conversation type, or keywords
+- **Categorization**: Automatic tagging and manual category assignment
+- **Favorites**: Bookmark important conversations for quick access
+
+##### Data Management
+- **Conversation Threading**: Related messages grouped in threaded conversations
+- **Message Timestamps**: Precise time and date stamps for all messages
+- **User Context**: Clear indication of message sender and recipient
+- **Media Support**: Support for images, files, and rich media in chat history
+- **Bulk Operations**: Select multiple conversations for mass actions
+
+##### Export & Backup
+- **Multiple Formats**: Export conversations in PDF, JSON, CSV, or plain text
+- **Selective Export**: Choose specific conversations or date ranges
+- **Automatic Backup**: Regular automated backups of chat data
+- **Data Portability**: Easy migration tools for switching platforms
+- **Archive Management**: Long-term storage options for inactive conversations
+
+#### Privacy Controls
+- **Deletion Options**: Permanent deletion of individual messages or entire conversations
+- **Retention Settings**: Customizable data retention periods
+- **Privacy Modes**: Incognito chat options that don't save history
+- **Access Logs**: Track when and how chat history is accessed
+- **Consent Management**: Clear opt-in/opt-out controls for data collection
+
+#### Technical Implementation
+- **Database Optimization**: Efficient indexing for fast search and retrieval
+- **Scalable Storage**: Cloud-based storage solution for unlimited history
+- **Real-time Sync**: Instant synchronization across all user devices
+- **Offline Access**: Cached recent conversations for offline viewing
+- **Performance Monitoring**: Continuous monitoring of load times and system performance
+
+## 🚀 Getting Started
+
+### For Users
+1. **Sign Up**: Create your account using email and secure password
+2. **Verify Email**: Check your inbox and click the verification link
+3. **Start Chatting**: Begin conversations immediately with free tier access
+4. **Explore History**: Use the chat history button to review past conversations
+5. **Upgrade**: Consider premium subscription for enhanced features
+
+### For Developers
+1. **API Documentation**: Comprehensive API docs available in developer section
+2. **Integration Guides**: Step-by-step integration tutorials
+3. **SDKs Available**: Multiple programming language SDKs
+4. **Sandbox Environment**: Test environment for development and testing
+5. **Community Support**: Active developer community and forums
+
+## 📞 Support & Contact
+
+- **Documentation**: Comprehensive help center with FAQs and guides
+- **Community Forums**: Active user community for peer support
+- **Email Support**: Direct email support for account and technical issues
+- **Premium Support**: Priority support channel for premium subscribers
+- **Bug Reports**: Dedicated channel for reporting issues and feedback
+
+## 🔄 Updates & Roadmap
+
+- **Regular Updates**: Monthly feature updates and security patches
+- **User Feedback**: Feature requests tracked and prioritized
+- **Transparent Roadmap**: Public roadmap showing upcoming features
+- **Beta Testing**: Early access programs for premium users
+- **Change Logs**: Detailed documentation of all updates and changes
+
+---
+
+*Last Updated: [Current Date]*
+*Version: 2.0*
+
+
   
